@@ -20,7 +20,7 @@ public class IsPrime {
             System.out.println("Not prime");
         }
         else{
-            for(int i=2; i<=Math.sqrt(n);i=i+1)
+            for(int i=3; i<=Math.sqrt(n);i=i+2)
                 {
                 if(n%i == 0)
                     {
